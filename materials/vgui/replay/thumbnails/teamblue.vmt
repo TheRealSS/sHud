@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/teamblue"
+	"$ignorez" 1
+	"$translucent" 1
+}
