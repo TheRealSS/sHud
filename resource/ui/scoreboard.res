@@ -1301,6 +1301,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"HudWhite"
+			"fgcolor"				"HudWhite"
 			"bgcolor_override"	"0 0 0 200"
 			
 		}						
@@ -1323,6 +1324,7 @@
 			"enabled"		"1"
 			"fgcolor_override"	"HudWhite"
 			"bgcolor_override"	"0 0 0 200"
+			"fgcolor"				"HudWhite"
 		}					
 		"AssistsLabel1"
 		{
@@ -1342,6 +1344,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"		"HudWhite"
+			"fgcolor"				"HudWhite"
 			"bgcolor_override"	"0 0 0 200"
 		}
 		"DestructionLabel1"
@@ -1380,6 +1383,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"		"HudWhite"
+			"fgcolor"				"HudWhite"
 		}		
 	
 		"Deaths1"
@@ -1400,6 +1404,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"		"HudWhite"
+			"fgcolor"				"HudWhite"
 		}	
 		"GameType"
 		{
@@ -1437,6 +1442,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"		"HudWhite"
+			"fgcolor"				"HudWhite"
 		}	
 	
 		"Destruction1"
@@ -1673,6 +1679,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"		"HudWhite"
+			"fgcolor"				"HudWhite"
 			"bgcolor_override"		"0 0 0 200"
 		}						
 		"Healing1"
@@ -1685,13 +1692,14 @@
 			"xpos"			"408"
 			"ypos"			"0"
 			"zpos"			"5"
-			"wide"			"100"
+			"wide"			"90"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"		"HudWhite"
+			"fgcolor"				"HudWhite"
 		}						
 		"Invuln1"
 		{
@@ -1874,6 +1882,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"		"HudWhite"
+			"fgcolor"				"HudWhite"
 			"bgcolor_override"		"0 0 0 200"
 		}
 		"Damage1"
@@ -1894,6 +1903,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"		"HudWhite"
+			"fgcolor"				"HudWhite"
 		}
 	}
 

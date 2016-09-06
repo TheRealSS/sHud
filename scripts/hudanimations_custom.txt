@@ -109,7 +109,9 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 	
 	Animate PlayerStatusHealthValue FgColor "HudBlue" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueShadow FgColor "HudWhite" Accel 0.0 0.0
+//	Animate PlayerStatusHealthValueShadow FgColor "HudWhite" Accel 0.0 0.0
+
+	Animate PlayerStatusHealthValue2		  BgColor 	"HudHealthBuff"     Accel 0.0 0.0
 	
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -127,6 +129,8 @@ event HudHealthBonusPulseStop
 	
 	Animate PlayerStatusHealthValue FgColor "HudWhite" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueShadow FgColor "0 0 0 255" Accel 0.0 0.0
+	
+	Animate PlayerStatusHealthValue2		  BgColor 	"0 0 0 200"     Accel 0.0 0.0
 }
 
 //===========================================
@@ -138,7 +142,9 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 
 	Animate PlayerStatusHealthValue		  FgColor 	"HudRed"     Accel 0.0 0.0
-	Animate PlayerStatusHealthValueShadow FgColor   "HudWhite"	 Accel 0.0 0.0
+//	Animate PlayerStatusHealthValueShadow FgColor   "HudWhite"	 Accel 0.0 0.0
+
+	Animate PlayerStatusHealthValue2		  BgColor 	"253 49 49 200"     Accel 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -156,6 +162,8 @@ event HudHealthDyingPulseStop
 	
 	Animate PlayerStatusHealthValue FgColor "HudWhite" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueShadow FgColor "0 0 0 255" Accel 0.0 0.0
+	
+	Animate PlayerStatusHealthValue2		  BgColor 	"0 0 0 200"     Accel 0.0 0.0
 }
 
 //===========================================
@@ -166,13 +174,8 @@ event HudLowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 	
 	Animate AmmoInClip 		FgColor 	"HudOrange" 	Accel 0.0 0.0
-	Animate AmmoInClipShadow FgColor 	"HudWhite"		Accel 0.0 0.0
-	
-	Animate AmmoInReserve 		FgColor 	"HudOrange" 	Accel 0.0 0.0
-	Animate AmmoInReserveShadow FgColor 	"HudWhite"		Accel 0.0 0.0
 	
 	Animate AmmoNoClip 		FgColor 	"HudOrange" 	Accel 0.0 0.0
-	Animate AmmoNoClipShadow FgColor 	"HudWhite"		Accel 0.0 0.0
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }

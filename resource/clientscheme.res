@@ -18,6 +18,7 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		//Hud colours
 		"HudWhite"		"255 255 255 255"
 		"HudBlue"		"31 160 255 255"
 		"HudRed"		"253 49 49 255"
@@ -30,6 +31,7 @@ Scheme
 		"HudTeamBlue"				"68 99 130 200"
 		"HudTeamRed"				"173 56 56 200"
 		"HudYellow"					"243 204 64 255"
+		"HudHealthBuff"							"52 152 219 200"
 		
 		//Menu Colours
 		"HudMenuDarker"				"41 47 54 255"
@@ -480,7 +482,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"8"
 				"antialias"	"1"
 				"additive"	"0"
@@ -490,7 +492,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"8"
 				"weight"	"500"
 				"underline" "1"
@@ -499,7 +501,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Montserrat Regular"
+				"name"			"Roboto Medium"
 				"tall"			"8"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -510,7 +512,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"8"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -519,7 +521,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"8"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -528,7 +530,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"8"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -542,7 +544,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"8"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -551,7 +553,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"8"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -560,7 +562,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"8"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -572,7 +574,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"15"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -581,7 +583,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"15"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -590,7 +592,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"15"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -616,7 +618,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -627,21 +629,21 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"	"768 1023"
@@ -1092,7 +1094,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -1103,7 +1105,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -1114,7 +1116,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
@@ -1127,7 +1129,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"tall_hidef"	"7"
 				"weight"	"500"
@@ -1252,7 +1254,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"  "Montserrat Regular"
+				"name"  "Roboto Medium"
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -1376,7 +1378,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"15"
 				"tall_hidef"	"14"
 				"tall_lodef"	"17"
@@ -1447,7 +1449,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1458,7 +1460,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1471,7 +1473,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"11"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1483,7 +1485,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1692,7 +1694,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1700,7 +1702,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1708,7 +1710,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1716,7 +1718,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1724,7 +1726,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1743,7 +1745,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1751,7 +1753,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1759,7 +1761,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1767,7 +1769,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1778,7 +1780,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1786,7 +1788,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1794,7 +1796,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1802,7 +1804,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1810,7 +1812,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"15"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1873,7 +1875,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"12"
@@ -1886,7 +1888,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
@@ -1900,7 +1902,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"11"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"weight"	"800"
@@ -1979,7 +1981,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"22"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -1989,7 +1991,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"18"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -1999,7 +2001,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"15"
 				"weight"	"900"
 			}
@@ -2052,7 +2054,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
@@ -2063,7 +2065,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -2074,7 +2076,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2086,7 +2088,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2095,7 +2097,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2104,7 +2106,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2172,7 +2174,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -2240,7 +2242,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2251,7 +2253,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2262,7 +2264,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2272,7 +2274,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -2285,7 +2287,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2514,7 +2516,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -2525,7 +2527,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2536,7 +2538,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
@@ -2564,7 +2566,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2572,7 +2574,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2580,7 +2582,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2589,7 +2591,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2598,7 +2600,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2621,7 +2623,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2629,7 +2631,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2637,7 +2639,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2646,7 +2648,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2655,7 +2657,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2785,7 +2787,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat"
+				"name"		"Roboto Bold"
 				"tall"		"40"
 				"antialias"	"1"
 			}
@@ -2794,7 +2796,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Light"
+				"name"		"Roboto"
 				"tall"		"20"
 				"antialias"	"1"
 			}
@@ -2803,7 +2805,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat"
+				"name"		"Roboto Bold"
 				"tall"		"15"
 				"antialias"	"1"
 			}
@@ -2812,7 +2814,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat"
+				"name"		"Roboto Bold"
 				"tall"		"36"
 				"antialias"	"1"
 			}
@@ -2821,7 +2823,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat"
+				"name"		"Roboto Bold"
 				"tall"		"25"
 				"antialias"	"1"
 			}
@@ -2830,7 +2832,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat"
+				"name"		"Roboto Bold"
 				"tall"		"32"
 				"antialias"	"1"
 			}
@@ -2840,7 +2842,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"10"
 				"antialias"	"1"
 			}
@@ -2849,7 +2851,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"16"
 				"antialias"	"1"
 			}
@@ -2858,7 +2860,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"8"
 				"antialias"	"1"
 			}
@@ -2867,7 +2869,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat"
+				"name"		"Roboto Bold"
 				"tall"		"24"
 				"antialias"	"1"
 			}
@@ -2876,7 +2878,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat"
+				"name"		"Roboto Bold"
 				"tall"		"20"
 				"antialias"	"1"
 			}
@@ -2885,7 +2887,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat Regular"
+				"name"		"Roboto Medium"
 				"tall"		"18"
 				"antialias"	"1"
 			}
@@ -2894,7 +2896,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat"
+				"name"		"Roboto Bold"
 				"tall"		"18"
 				"antialias"	"1"
 			}
@@ -2903,7 +2905,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Montserrat"
+				"name"		"Roboto Bold"
 				"tall"		"12"
 				"antialias"	"1"
 			}
@@ -5440,18 +5442,18 @@ Scheme
 		//Hud fonts start from here
 		"8"
 		{
-			"font" "resource/fonts/Montserrat-Bold.ttf"
-			"name" "Montserrat"
+			"font" "resource/fonts/Roboto-Bold.ttf"
+			"name" "Roboto Bold"
 		}
 		"9"
 		{
-			"font" "resource/fonts/Montserrat-Light.ttf"
-			"name" "Montserrat Light"
+			"font" "resource/fonts/Roboto-Regular.ttf"
+			"name" "Roboto"
 		}
 		"10"
 		{
-			"font" "resource/fonts/Montserrat-Regular.ttf"
-			"name" "Montserrat Regular"
+			"font" "resource/fonts/Roboto-Medium.ttf"
+			"name" "Roboto Medium"
 		}
 		"11"
 		{
