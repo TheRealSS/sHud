@@ -47,28 +47,18 @@
 
 event MMenu_PlayList_Expand
 {
-	Animate	FindAGameButton wide 0 Spline 0 0.2
-	Animate	CharacterSetupButton wide 0 Spline 0 0.2
-	Animate	GeneralStoreButton wide 0 Spline 0 0.2
-	Animate	ConsoleButton wide 0 Spline 0 0.2
-	Animate	SettingsButton wide 0 Spline 0 0.2
-	Animate	TF2SettingsButton wide 0 Spline 0 0.2
-	Animate	QuitButton wide 0 Spline 0 0.2
-	Animate PlayListContainer	wide 100	Spline	0.2 0.2
+	Animate PlayListContainer	wide 100	Spline	0.1 0.4
+	Animate PlayBG	wide 100	Spline	0.1 0.4
+	Animate PlayBG	xpos 2	Spline	0.2 0.3
 	
 	FireCommand 0 "soundentry Panel.SlideDown"
 }
 
 event MMenu_PlayList_Collapse
 {
-	Animate PlayListContainer wide 0 Spline 0 0.2
-	Animate	FindAGameButton wide 100 Spline 0.2 0.2
-	Animate	CharacterSetupButton wide 100 Spline 0.2 0.2
-	Animate	GeneralStoreButton wide 100 Spline 0.2 0.2
-	Animate	ConsoleButton wide 100 Spline 0.2 0.2
-	Animate	SettingsButton wide 100 Spline 0.2 0.2
-	Animate	TF2SettingsButton wide 150 Spline 0.2 0.2
-	Animate	QuitButton wide 100 Spline 0.2 0.2
+	Animate PlayListContainer wide 0 Spline 0.1 0.4
+	Animate PlayBG	wide 3	Spline	0.1 0.4
+	Animate PlayBG	xpos 0	Spline	0.2 0.3
 	
 	FireCommand 0 "soundentry Panel.SlideUp"
 }
@@ -80,15 +70,9 @@ event MMenu_PlayList_Collapse_Immediate
 	Animate VRBGPanel				ypos 373 Spline	0 0
 	Animate VRModeButton			ypos 379 Spline 0 0
 	Animate ShowPromoCodesButton	ypos 379 Spline 0 0
-	
-	Animate PlayListContainer wide 100 Spline 0 0
-	Animate	FindAGameButton wide 100 Spline 0 0
-	Animate	CharacterSetupButton wide 100 Spline 0 0
-	Animate	GeneralStoreButton wide 100 Spline 0 0
-	Animate	ConsoleButton wide 100 Spline 0 0
-	Animate	SettingsButton wide 100 Spline 0 0
-	Animate	TF2SettingsButton wide 150 Spline 0 0
-	Animate	QuitButton wide 100 Spline 0 0
+
+	Animate PlayBG	wide 3	Spline	0.0 0.0
+	Animate PlayBG	xpos 0	Spline	0.0 0
 	Animate PlayListContainer wide 0 Spline 0 0
 }
 

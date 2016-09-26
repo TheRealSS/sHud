@@ -1,34 +1,29 @@
 "GameMenu" [$WIN32]
 {
-	"Logo"		//The tf2 icon
-	{
-		"label"			""
-		"command"		"null"
-		"subimage" 		"replay/thumbnails/logo"
-	}
-	"Logo2"			//The TF2 text
-	{
-		"label"			""
-		"command"		"null"
-		"subimage" 		"replay/thumbnails/logo2"
-	}
+//	"MenuBG"
+//	{
+//		"label" "" 
+//		"command" "null"
+//		"subimage" "replay/thumbnails/MenuBG"
+//	}
+//	"PlayBG"
+//	{
+//		"label" "" 
+//		"command" "null"
+//		"subimage" "replay/thumbnails/PlayBG"
+//	}
 	"ResumeGameButton"
 	{
-		"label"			"Resume"
+		"label"			"Q"
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
 		"subimage" "icon_resume"
 	}
 	"FindAGameButton"
 	{
-		"label" "Play" 
+		"label" "PLAY" 
 		"command" "toggle_play_menu"
 		"subimage" "glyph_multiplayer"
-	}
-	"BackButton"
-	{
-		"label" "u" 
-		"command" "toggle_play_menu"
 	}
 	"VRModeButton"
 	{
@@ -40,13 +35,13 @@
 
 	"GeneralStoreButton"
 	{
-		"label" "Shop"
+		"label" "SHOP"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "Inventory"
+		"label" "ITEMS"
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}

@@ -89,6 +89,8 @@
 		"brighttext"		"0"
 		"fgcolor_override"	"HudWhite"
 		"fgcolor"			"HudWhite"
+	//	"auto_wide_tocontents"	"1"
+	//	"bgcolor_override"	"0 0 0 200"
 	}
 	"SpectatorGUIHealth"
 	{
