@@ -45,7 +45,7 @@
 		"enabled"		"1"
 		"labelText"		"%button_token%"
 		"use_proportional_insets" "1"
-		"font"			"Regular20"
+		"font"			"Semibold12"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"

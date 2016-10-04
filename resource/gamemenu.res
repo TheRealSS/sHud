@@ -1,29 +1,23 @@
 "GameMenu" [$WIN32]
 {
-//	"MenuBG"
-//	{
-//		"label" "" 
-//		"command" "null"
-//		"subimage" "replay/thumbnails/MenuBG"
-//	}
-//	"PlayBG"
-//	{
-//		"label" "" 
-//		"command" "null"
-//		"subimage" "replay/thumbnails/PlayBG"
-//	}
 	"ResumeGameButton"
 	{
 		"label"			"Q"
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
 		"subimage" "icon_resume"
+		"tooltip" "Resume Game"
 	}
 	"FindAGameButton"
 	{
 		"label" "PLAY" 
 		"command" "toggle_play_menu"
 		"subimage" "glyph_multiplayer"
+	}
+	"PlayListBG"
+	{
+		"label" "" 
+		"command" ""
 	}
 	"VRModeButton"
 	{
@@ -41,7 +35,7 @@
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "ITEMS"
+		"label" "INVENTORY"
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}

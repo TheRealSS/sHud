@@ -270,13 +270,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Semibold16"
+			"font"			"Bold18"
 			"fgcolor_override"		"HudWhite"
 			"xpos"			"25"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"50"
 			"tall"			"21"
+			"textinsetY"	"2"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"
@@ -289,7 +290,7 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"7"
 				"tall"			"12"
-				"font"			"Semibold16"
+				"font"			"Bold18"
 				"fgcolor"		"HudWhite"
 			}
 		}	

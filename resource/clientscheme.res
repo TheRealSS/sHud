@@ -34,11 +34,11 @@ Scheme
 		"HudHealthBuff"							"52 152 219 200"
 		
 		//Menu Colours
-		"HudMenuDarker"				"41 47 54 255"
-		"HudMenuDark"				"58 80 107 255"
+		"HudMenuDarker"				"44 46 58 255"
+		"HudMenuDark"				"59 62 79 255"
 		"HudMenuText"				"247 247 255 255"
-		"HudMenuArmedText"			"182 207 231 255"
-		"HudMenuBlue"				"67 129 193 255"
+		"HudMenuArmedText"			"82 148 226 255"
+		"HudMenuBlue"				"82 148 226 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -2856,6 +2856,15 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"Semibold30"			
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Heavy"
+				"tall"		"27"
+				"antialias"	"1"
+			}
+		}
 		"Bold18"				//TargetID health
 		{
 			"1"
@@ -2901,6 +2910,15 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"Icon9"
+		{
+			"1"
+			{
+				"name"		"symbols"
+				"tall"		"9"
+				"antialias"	"1"
+			}
+		}		
 		"Classes"
 		{
 			"1"
@@ -2910,6 +2928,24 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"Numbers15"
+		{
+			"1"
+			{
+				"name"		"Numbers"
+				"tall"		"12"
+				"antialias"	"1"
+			}
+		}
+		"Respawn15"
+		{
+			"1"
+			{
+				"name"		"RespawnFont"
+				"tall"		"15"
+				"antialias"	"1"
+			}
+		}			
 	}
 
 	//
@@ -5413,6 +5449,7 @@ Scheme
 		{
 			"font" "resource/fonts/AvenirLTStd-Medium.otf"
 			"name" "AvenirLTStd-Medium"
+
 		}
 		"10"
 		{
@@ -5428,6 +5465,16 @@ Scheme
 		{
 			"font" "resource/fonts/HudasIscariotes.otf"
 			"name" "Hudas Iscariote"
+		}
+		"13"
+		{
+			"font" "resource/fonts/Numbers.ttf"
+			"name" "Numbers"
+		}		
+		"14"
+		{
+			"font" "resource/fonts/RespawnFont.ttf"
+			"name" "RespawnFont"
 		}
 	}
 }

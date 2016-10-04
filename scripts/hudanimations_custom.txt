@@ -47,18 +47,15 @@
 
 event MMenu_PlayList_Expand
 {
-	Animate PlayListContainer	wide 100	Spline	0.1 0.4
-	Animate PlayBG	wide 100	Spline	0.1 0.4
-	Animate PlayBG	xpos 2	Spline	0.2 0.3
-	
+	Animate PlayListContainer	wide 100	Linear	0.2 0.01
+	Animate PlaylistBGPanel	    BgColor "59 62 79 255"	Spline 0.15 0.3
 	FireCommand 0 "soundentry Panel.SlideDown"
 }
 
 event MMenu_PlayList_Collapse
 {
-	Animate PlayListContainer wide 0 Spline 0.1 0.4
-	Animate PlayBG	wide 3	Spline	0.1 0.4
-	Animate PlayBG	xpos 0	Spline	0.2 0.3
+	Animate PlayListContainer wide 0 Linear 0.2 0.01
+	Animate PlaylistBGPanel	  BgColor "59 62 79 0"	Spline 0.15 0.1
 	
 	FireCommand 0 "soundentry Panel.SlideUp"
 }
@@ -71,8 +68,7 @@ event MMenu_PlayList_Collapse_Immediate
 	Animate VRModeButton			ypos 379 Spline 0 0
 	Animate ShowPromoCodesButton	ypos 379 Spline 0 0
 
-	Animate PlayBG	wide 3	Spline	0.0 0.0
-	Animate PlayBG	xpos 0	Spline	0.0 0
+	Animate PlaylistBGPanel		BgColor "40 56 69 0"	Spline 0 0.0
 	Animate PlayListContainer wide 0 Spline 0 0
 }
 
