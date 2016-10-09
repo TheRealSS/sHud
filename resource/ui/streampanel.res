@@ -71,7 +71,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PreviewImage"
-		"xpos"			"9"
+		"xpos"			"8"
 		"ypos"			"3"
 		"zpos"			"1"
 		"wide"			"80"

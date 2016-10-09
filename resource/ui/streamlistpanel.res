@@ -74,10 +74,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"hide_streams"
 			
-		"paintbackground"	"1"
+		"paintbackground"	"0"
 			
 		"defaultFgColor_override" "247 247 255 255"
-		"armedFgColor_override" "82 148 226 255"
+		"armedFgColor_override" "44 46 58 255"
 		"depressedFgColor_override" "82 148 226 255"
 
 		"defaultBgColor_override" "44 46 58 255"
