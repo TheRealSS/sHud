@@ -506,7 +506,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeftValue1"
-		"font"			"Semibold16"
+		"font"			"BoldNumbers20"
 		"labelText"		"%servertime%"
 		"textAlignment"		"left"
 		"xpos"			"c-50"

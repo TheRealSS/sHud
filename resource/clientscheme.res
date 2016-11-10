@@ -482,7 +482,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Montserrat-Regular"
 				"tall"		"10"
 				"antialias"	"1"
 				"additive"	"0"
@@ -492,27 +492,19 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Montserrat-Regular"
 				"tall"		"10"
 				"weight"	"500"
 				"underline" "1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
 			}
-			"2"
-			{
-				"name"			"AvenirLTStd-Medium"
-				"tall"			"10"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
-				"antialias"		"1"
-			}
 		}
 		"DefaultSmall"
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Montserrat-Regular"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -526,7 +518,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Montserrat-Regular"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -538,7 +530,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Montserrat-Regular"
 				"tall"		"15"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -547,7 +539,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Montserrat-Regular"
 				"tall"		"15"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -556,7 +548,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Montserrat-Regular"
 				"tall"		"15"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -582,7 +574,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Montserrat-Regular"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -593,24 +585,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Montserrat-Regular"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"	"768 1023"
 			}
 		}
 		"HudFontGiant"
@@ -1058,7 +1036,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -1069,7 +1047,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -1080,7 +1058,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Montserrat-Regular"
 				"tall"		"12"
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
@@ -1093,7 +1071,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Montserrat-Regular"
 				"tall"		"12"
 				"tall_hidef"	"7"
 				"weight"	"500"
@@ -1218,7 +1196,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"  "AvenirLTStd-Heavy"
+				"name"  "Montserrat-Regular"
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -1342,7 +1320,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"15"
 				"tall_hidef"	"14"
 				"tall_lodef"	"17"
@@ -1413,7 +1391,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1424,7 +1402,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1437,7 +1415,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1449,7 +1427,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1658,7 +1636,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1666,7 +1644,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1674,7 +1652,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1682,7 +1660,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1690,7 +1668,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1709,7 +1687,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1717,7 +1695,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1725,7 +1703,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1733,7 +1711,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1744,7 +1722,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1752,7 +1730,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1760,7 +1738,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1768,7 +1746,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1776,7 +1754,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"15"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1839,7 +1817,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"12"
@@ -1852,7 +1830,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
@@ -1866,7 +1844,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"11"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"weight"	"800"
@@ -1945,7 +1923,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"22"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -1955,7 +1933,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"18"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -1965,7 +1943,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"15"
 				"weight"	"900"
 			}
@@ -2018,7 +1996,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
@@ -2029,7 +2007,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -2040,7 +2018,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2052,7 +2030,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2061,7 +2039,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2070,7 +2048,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2138,7 +2116,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -2206,7 +2184,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2217,7 +2195,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2228,7 +2206,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2238,7 +2216,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -2251,7 +2229,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2480,7 +2458,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -2491,7 +2469,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2502,7 +2480,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
@@ -2530,7 +2508,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2538,7 +2516,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2546,7 +2524,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2555,7 +2533,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2564,7 +2542,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2587,7 +2565,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2595,7 +2573,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2603,7 +2581,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2612,7 +2590,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2621,7 +2599,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2747,84 +2725,84 @@ Scheme
 			}
 		}
 		
-		"Bold40"			//Bold Numbers		//Health, ammo
+		"Bold40"								//Health, ammo
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
-				"tall"		"40"
+				"name"		"Montserrat-Semibold"
+				"tall"		"50"
 				"antialias"	"1"
 			}
 		}
-		"Regular20"			//Numbers			//Reserve ammo, metal, other numbers
+		"Regular20"								//Reserve ammo, metal
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Montserrat-Light"
 				"tall"		"20"
 				"antialias"	"1"
 			}
 		}
-		"Bold15"			//Bold Numbers		
+		"Bold15"								//Mostly just text	
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
+				"name"		"Montserrat-Semibold"
 				"tall"		"15"
 				"antialias"	"1"
 			}
 		}
-		"Bold36"		//Bold Numbers   		//Used for scores
+		"Bold36"						 		//Scores
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
+				"name"		"Montserrat-Semibold"
 				"tall"		"36"
 				"antialias"	"1"
 			}
 		}
-		"Bold25"		//Team menu
+		"Bold25"								//Team menu
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
+				"name"		"Montserrat-Semibold"
 				"tall"		"25"
 				"antialias"	"1"
 			}
 		}
-		"Bold32"			//Bold text
+		"Bold32"			
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
+				"name"		"Montserrat-Semibold"
 				"tall"		"32"
 				"antialias"	"1"
 			}
 		}
 		
-		"Semibold12"			//Regular text
+		"Semibold12"									
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Montserrat-Regular"
 				"tall"		"12"
 				"antialias"	"1"
 			}
 		}
-		"Semibold16"				//Respawn timer
+		"Semibold16"				
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"16"
 				"antialias"	"1"
 			}
 		}
-		"Semibold10"				//Smaller text
+		"Semibold10"								
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Montserrat-Regular"
 				"tall"		"10"
 				"antialias"	"1"
 			}
@@ -2833,7 +2811,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
+				"name"		"Montserrat-Semibold"
 				"tall"		"24"
 				"antialias"	"1"
 			}
@@ -2842,7 +2820,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
+				"name"		"Montserrat-Semibold"
 				"tall"		"20"
 				"antialias"	"1"
 			}
@@ -2851,7 +2829,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"18"
 				"antialias"	"1"
 			}
@@ -2860,7 +2838,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Heavy"
+				"name"		"Montserrat-Regular"
 				"tall"		"27"
 				"antialias"	"1"
 			}
@@ -2869,7 +2847,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
+				"name"		"Montserrat-Semibold"
 				"tall"		"18"
 				"antialias"	"1"
 			}
@@ -2878,7 +2856,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Black"
+				"name"		"Montserrat-Semibold"
 				"tall"		"12"
 				"antialias"	"1"
 			}
@@ -2928,11 +2906,11 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Numbers15"
+		"Numbers15"															// Stream viewers count
 		{
 			"1"
 			{
-				"name"		"Numbers"
+				"name"		"BoldNumbers"
 				"tall"		"12"
 				"antialias"	"1"
 			}
@@ -2945,7 +2923,25 @@ Scheme
 				"tall"		"15"
 				"antialias"	"1"
 			}
-		}			
+		}	
+		"BoldNumbers20"
+		{
+			"1"
+			{
+				"name"		"BoldNumbers"
+				"tall"		"20"
+				"antialias"	"1"
+			}
+		}	
+		"BoldNumbers40"
+		{
+			"1"
+			{
+				"name"		"BoldNumbers"
+				"tall"		"50"
+				"antialias"	"1"
+			}
+		}		
 	}
 
 	//
@@ -5442,19 +5438,19 @@ Scheme
 		//Hud fonts start from here
 		"8"
 		{
-			"font" "resource/fonts/AvenirLTStd-Black.otf"
-			"name" "AvenirLTStd-Black"
+			"font" "resource/fonts/Montserrat-Semibold.ttf"
+			"name" "Montserrat-Semibold"
 		}
 		"9"
 		{
-			"font" "resource/fonts/AvenirLTStd-Medium.otf"
-			"name" "AvenirLTStd-Medium"
+			"font" "resource/fonts/Montserrat-Light.ttf"
+			"name" "Montserrat-Light"
 
 		}
 		"10"
 		{
-			"font" "resource/fonts/AvenirLTStd-Heavy.otf"
-			"name" "AvenirLTStd-Heavy"
+			"font" "resource/fonts/Montserrat-Regular.ttf"
+			"name" "Montserrat-Regular"
 		}
 		"11"
 		{
@@ -5465,16 +5461,16 @@ Scheme
 		{
 			"font" "resource/fonts/HudasIscariotes.otf"
 			"name" "Hudas Iscariote"
-		}
-		"13"
-		{
-			"font" "resource/fonts/Numbers.ttf"
-			"name" "Numbers"
 		}		
 		"14"
 		{
 			"font" "resource/fonts/RespawnFont.ttf"
 			"name" "RespawnFont"
+		}
+		"15"
+		{
+			"font" "resource/fonts/BoldNumbers.ttf"
+			"name" "BoldNumbers"
 		}
 	}
 }

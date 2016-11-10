@@ -270,7 +270,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Bold18"
+			"font"			"Bold20"
 			"fgcolor_override"		"HudWhite"
 			"xpos"			"25"
 			"ypos"			"0"
@@ -290,7 +290,7 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"7"
 				"tall"			"12"
-				"font"			"Bold18"
+				"font"			"Bold20"
 				"fgcolor"		"HudWhite"
 			}
 		}	

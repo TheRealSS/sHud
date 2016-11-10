@@ -8,15 +8,14 @@
 		"presetbutton_kv"
 		{
 			"zpos"			"20"
-			"wide"			"50"
-			"tall"			"10"
+			"wide"			"25"
+			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetY"	"-1"
-			"font"			"Semibold12"
+			"font"			"Bold12"
 			"textAlignment"	"center"
 			"textinsetx"	"0"
 			"dulltext"		"0"
@@ -25,7 +24,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"centerwrap"	"1"
-			"fgcolor_override"		"HudMenuText"
 		}			
 	}
 }

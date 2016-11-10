@@ -5,27 +5,26 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-240"
-		"ypos"			"220"
+		"xpos"			"c-170"
+		"ypos"			"306"
 		"zpos"			"2"
-		"wide"			"160"
-		"tall"			"140"
+		"wide"			"100"
+		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"	
-		"HealthBonusPosAdj"	"35"
+		"HealthBonusPosAdj"	"70"
 		"HealthDeathWarning"	"0.49"
-		"HealthDeathWarningColor"	"HUDDeathWarning"
+		"HealthDeathWarningColor"	"HudWhite"
 	}	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"9999"
-		"xpos_minmode"	"60"
+		"xpos"			"0"
 		"ypos"			"9999"
 		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"	
@@ -34,14 +33,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"9999"
-		"xpos_minmode"	"58"
-		"ypos"			"9999"
+		"xpos"			"0"
+		"ypos"			"45"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -49,33 +47,53 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
-		"ypos"			"9999"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
-		"ypos"			"43"	[$X360]
-		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
-		"wide_minmode"	"40"	[$WIN32]
-		"wide"			"35"	[$X360]
-		"tall"			"55"	[$WIN32]
-		"tall_minmode"	"40"	[$WIN32]
-		"tall"			"35"	[$X360]
+		"xpos"			"0"
+		"ypos"			"45"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"2"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/health_over_bg"
+		"fillcolor"		"HudBlue"
+		"scaleImage"	"1"	
+	}
+	"PlayerStatusHealthBonusImageDamage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImageDamage"
+		"xpos"			"0"
+		"ypos"			"41"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"4"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"HudWhite"
+		"scaleImage"	"1"	
+	}
+	"PlayerStatusHealthBonusImageOverheal"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImageOverheal"
+		"xpos"			"0"
+		"ypos"			"45"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"HudBlue"
 		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
-		"ypos"			"60"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"80"
-		"tall"			"100"
+		"wide"			"100"
+		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
@@ -87,11 +105,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"78"
-		"ypos"			"62"
-		"zpos"			"4"
-		"wide"			"80"
-		"tall"			"100"
+		"xpos"			"2"
+		"ypos"			"2"
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"

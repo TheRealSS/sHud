@@ -67,18 +67,17 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BlueButton"
-		"xpos"			"c-150"
-		"ypos"			"c-10"
+		"xpos"			"c-65"
+		"ypos"			"c-40"
 		"zpos"			"3"
-		"wide"			"150"
+		"wide"			"100"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"BLU"	[$WIN32]
-		"labelText"		""		[$X360]
+		"labelText"		"BLU"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -102,19 +101,18 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"RedButton"
-		"xpos"			"c"
-		"ypos"			"c-10"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"150"
+		"wide"			"100"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"4"
-		"labelText"		"RED"	[$WIN32]
-		"labelText"		""		[$X360]
-		"textAlignment"	"east"
+		"labelText"		"RED"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
@@ -131,16 +129,20 @@
 		"defaultBgColor_override"		"HudTeamRed"
 		"armedBgColor_override" 		"HudWhite"
 		"depressedBgColor_override" 	"HudTeamRed"
+
+		"pin_to_sibling"		"BlueButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 
 	"RandomButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"RandomButton"
-		"xpos"			"c-150"
-		"ypos"			"c+10"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"21"
-		"wide"			"150"
+		"wide"			"130"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -148,11 +150,11 @@
 		"enabled"		"1"
 		"tabPosition"	"1"
 		"labelText"		"RANDOM"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
-		"paintbackground"	"1"
+		"paintbackground"	"0"
 		"command"		"jointeam auto"
 		"associated_model"	"autodoor"
 		"font"			"Semibold16"
@@ -166,28 +168,32 @@
 		"defaultBgColor_override"		"HudBlack"
 		"armedBgColor_override" 		"HudWhite"
 		"depressedBgColor_override" 	"HudBlack"
+
+		"pin_to_sibling"		"RedButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 	
 	"SpectateButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"SpectateButton"
-		"xpos"			"c"
-		"ypos"			"c+10"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"21"
-		"wide"			"150"
+		"wide"			"130"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"SPECTATE"	[$WIN32]
-		"textAlignment"	"center"
+		"labelText"		"SPECTATE"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
-		"paintbackground"	"1"
+		"paintbackground"	"0"
 		"command"		"jointeam spectate"
 		"associated_model"	"spectate"	
 		"font"			"Semibold16"
@@ -201,10 +207,12 @@
 		"armedBgColor_override" 		"HudWhite"
 		"depressedBgColor_override" 	"HudBlack"
 
-
+		"pin_to_sibling"		"RandomButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 		
-	"CancelButton" [$WIN32] 
+	"CancelButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
@@ -358,9 +366,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
-		"textinsetY" 	"-1"
-		"xpos"			"c-30"
-		"ypos"			"c-10"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"20"
 		"wide"			"30"
 		"tall"			"20"
@@ -373,16 +380,20 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"fgcolor_override"		"HudWhite"
+		"bgcolor_override"		"0 0 0 200"
 		"font"			"Bold25"
+
+		"pin_to_sibling"		"BlueButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}		
 	
 	"RedCount"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
-		"textinsetY" 	"-1"
-		"xpos"			"c"
-		"ypos"			"c-10"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"20"
 		"wide"			"30"
 		"tall"			"20"
@@ -396,6 +407,11 @@
 		"brighttext"	"1"
 		"font"			"Bold25"
 		"fgcolor_override"		"HudWhite"
+		"bgcolor_override"		"0 0 0 200"
+
+		"pin_to_sibling"		"RedButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}	
 	
 	"bluedoor"

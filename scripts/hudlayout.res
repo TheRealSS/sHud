@@ -16,9 +16,9 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c+67"
+		"xpos"	"c+70"
 		"ypos"	"306"
-		"wide"	"94"
+		"wide"	"100"
 		"tall"	"45"
 	}
 	
@@ -72,9 +72,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"	
-		"ypos"			"c20"
+		"ypos"			"0"
 		"wide"			"f0"
-		"tall"			"500"
+		"tall"			"f0"
 	}
 	
 	HudDemomanCharge
@@ -187,11 +187,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c-28"	[$WIN32]
-		"ypos"					"194"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
+		"xpos"					"c-28"
+		"ypos"					"194"	
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -202,12 +199,10 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"  				"480"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"

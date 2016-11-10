@@ -125,7 +125,7 @@
 		"labelText"		"%viewer_count%"
 		"textAlignment"	"west"
 		"xpos"			"106"
-		"ypos"			"34"
+		"ypos"			"32"
 		"wide"			"205"
 		"tall"			"12"
 		"autoResize"	"0"

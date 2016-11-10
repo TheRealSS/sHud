@@ -85,13 +85,10 @@ event CompetitiveGame_RestoreChatWindow
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	Animate	PlayerStatusHealthBonusImage	Alpha		"255"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage	Alpha		"0"			Linear 0.2 0.4
 	
-	Animate PlayerStatusHealthValue FgColor "HudBlue" Accel 0.0 0.0
-//	Animate PlayerStatusHealthValueShadow FgColor "HudWhite" Accel 0.0 0.0
-
-	Animate PlayerStatusHealthValue2		  BgColor 	"HudHealthBuff"     Accel 0.0 0.0
+//	Animate PlayerStatusHealthValue FgColor "HudBlue" Accel 0.0 0.0
 	
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -107,10 +104,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 	
-	Animate PlayerStatusHealthValue FgColor "HudWhite" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueShadow FgColor "0 0 0 255" Accel 0.0 0.0
-	
-	Animate PlayerStatusHealthValue2		  BgColor 	"0 0 0 200"     Accel 0.0 0.0
+//	Animate PlayerStatusHealthValue FgColor "HudWhite" Accel 0.0 0.0
 }
 
 //===========================================
@@ -118,13 +112,11 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImageDamage 	Alpha		"255"		Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImageDamage 	Alpha		"0"			Linear 0.125 0.075
 
 	Animate PlayerStatusHealthValue		  FgColor 	"HudRed"     Accel 0.0 0.0
 //	Animate PlayerStatusHealthValueShadow FgColor   "HudWhite"	 Accel 0.0 0.0
-
-	Animate PlayerStatusHealthValue2		  BgColor 	"253 49 49 200"     Accel 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -142,8 +134,6 @@ event HudHealthDyingPulseStop
 	
 	Animate PlayerStatusHealthValue FgColor "HudWhite" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueShadow FgColor "0 0 0 255" Accel 0.0 0.0
-	
-	Animate PlayerStatusHealthValue2		  BgColor 	"0 0 0 200"     Accel 0.0 0.0
 }
 
 //===========================================
@@ -187,13 +177,9 @@ event HudLowAmmoPulseStop
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"HudYellow"		Accel 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"HudOrange"		Accel 0.3 0.2
-	
-	Animate ChargeLabelShadow   FgColor 	"HudWhite"		Accel 0.0 0.1
-	
-	Animate	ChargeMeter 	FgColor		"HudYellow"		Accel 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"HudOrange"		Accel 0.3 0.2
+
+	Animate	ChargeMeter 	FgColor		"HudYellow"		Spline 0.0 0.3
+	Animate	ChargeMeter 	FgColor		"HudOrange"		Spline 0.3 0.2
 
 	RunEvent HudMedicChargedLoop	0.6
 }
