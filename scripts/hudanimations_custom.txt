@@ -47,29 +47,33 @@
 
 event MMenu_PlayList_Expand
 {
-	Animate PlayListContainer	wide 100	Linear	0.2 0.01
-	Animate PlaylistBGPanel	    BgColor "59 62 79 255"	Spline 0.15 0.3
+//	Animate FindAGameButton		xpos -200	Spline	0 0.2
+//	Animate TFLogoImage			xpos -200	Spline	0 0.2
+	Animate PlayListContainer	ypos 85	Spline	0.2 0.2
+
 	FireCommand 0 "soundentry Panel.SlideDown"
 }
 
 event MMenu_PlayList_Collapse
 {
-	Animate PlayListContainer wide 0 Linear 0.2 0.01
-	Animate PlaylistBGPanel	  BgColor "59 62 79 0"	Spline 0.15 0.1
+	Animate PlayListContainer 	ypos -320	Spline	0 0.2
+//	Animate FindAGameButton		xpos 120	Spline	0.2 0.2
+//	Animate TFLogoImage			xpos 120	Spline	0.2 0.2
 	
 	FireCommand 0 "soundentry Panel.SlideUp"
 }
 
 event MMenu_PlayList_Collapse_Immediate
 {
-	Animate ItemsContainer			ypos 160 Spline 0 0
-	Animate EventPromo				ypos 210 Spline 0 0
-	Animate VRBGPanel				ypos 373 Spline	0 0
-	Animate VRModeButton			ypos 379 Spline 0 0
-	Animate ShowPromoCodesButton	ypos 379 Spline 0 0
-
-	Animate PlaylistBGPanel		BgColor "40 56 69 0"	Spline 0 0.0
-	Animate PlayListContainer wide 0 Spline 0 0
+//	Animate ItemsContainer			ypos 160 Spline 0 0
+//	Animate EventPromo				ypos 210 Spline 0 0
+//	Animate VRBGPanel				ypos 373 Spline	0 0
+//	Animate VRModeButton			ypos 379 Spline 0 0
+//	Animate ShowPromoCodesButton	ypos 379 Spline 0 0
+//
+//	Animate FindAGameButton		xpos 120	Spline	0 0
+//	Animate TFLogoImage			xpos 120	Spline	0 0
+//	Animate PlayListContainer 	ypos -320	Spline 	0 0
 }
 
 event CompetitiveGame_LowerChatWindow
@@ -88,7 +92,7 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage	Alpha		"0"			Linear 0.2 0.4
 	
-//	Animate PlayerStatusHealthValue FgColor "HudBlue" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue FgColor "HudBlue" Accel 0.0 0.0
 	
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -112,13 +116,12 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImageDamage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImageDamage 	Alpha		"0"			Linear 0.125 0.075
+//	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.0 0.0
 
 	Animate PlayerStatusHealthValue		  FgColor 	"HudRed"     Accel 0.0 0.0
-//	Animate PlayerStatusHealthValueShadow FgColor   "HudWhite"	 Accel 0.0 0.0
 	
-	RunEvent HudHealthDyingPulseLoop	0.25
+	RunEvent HudHealthDyingPulseLoop	0.2
 }
 
 // call to loop HudHealthDyingPulse
@@ -133,7 +136,6 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 0.0
 	
 	Animate PlayerStatusHealthValue FgColor "HudWhite" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueShadow FgColor "0 0 0 255" Accel 0.0 0.0
 }
 
 //===========================================
@@ -141,13 +143,13 @@ event HudHealthDyingPulseStop
 event HudLowAmmoPulse
 {
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
-	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
+	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.225 0.075
 	
 	Animate AmmoInClip 		FgColor 	"HudOrange" 	Accel 0.0 0.0
 	
 	Animate AmmoNoClip 		FgColor 	"HudOrange" 	Accel 0.0 0.0
 	
-	RunEvent HudLowAmmoPulseLoop	0.25
+	RunEvent HudLowAmmoPulseLoop	0.2
 }
 
 // call to loop HudLowAmmoPulse
@@ -181,6 +183,9 @@ event HudMedicCharged
 	Animate	ChargeMeter 	FgColor		"HudYellow"		Spline 0.0 0.3
 	Animate	ChargeMeter 	FgColor		"HudOrange"		Spline 0.3 0.2
 
+	Animate	ChargeLabel 	FgColor		"HudYellow"		Spline 0.0 0.3
+	Animate	ChargeLabel 	FgColor		"HudOrange"		Spline 0.3 0.2
+
 	RunEvent HudMedicChargedLoop	0.6
 }
 
@@ -197,7 +202,7 @@ event HudMedicChargedStop
 	
 	Animate	ChargeLabel 	FgColor		"HudWhite"		Linear 0.0 0.0001
 	Animate	ChargeMeter 	FgColor		"HudWhite"		Linear 0.0 0.0001
-	Animate	ChargeLabelShadow 	FgColor		"HudBlack"		Linear 0.0 0.0001
+	Animate	ChargeLabelShadow 	FgColor		"0 0 0 200"		Linear 0.0 0.0001
 }
 
 //===========================================
@@ -223,13 +228,13 @@ event HudReplayReminderIn2	// Puts the panel below the snapshot panel
 event HudReplayTipIn
 {
 	Animate ReplayTip			Position	"9999 9999"		Linear 0.0 0.001
-	Animate ReplayTip			Position	"9999 9999"		Spline 0.001 0.1
+	Animate ReplayTip			Position	"9999 9999"		Spline 0.001 0.2
 }
 
 event HudReplayTipOut
 {
 	Animate ReplayTip			Position	"9999 9999"		Linear 0.0 0.001
-	Animate ReplayTip			Position	"9999 9999"		Spline 0.001 0.1
+	Animate ReplayTip			Position	"9999 9999"		Spline 0.001 0.2
 }
 
 //===========================================

@@ -9,7 +9,7 @@
 		"PositiveColor"			"HudBlue"
 		"NegativeColor"			"HudWhite"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"Semibold16"
+		"delta_item_font"		"Semibold18"
 		"delta_item_font_big"	"Semibold18"
 	}
 	
@@ -21,14 +21,28 @@
 		"ypos"			"290"
 		"zpos"			"2"
 		"wide"			"100"
-		"tall"			"26"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
 		"fgcolor"		"HudWhite"
-		"font"			"Semibold18"
+		"font"			"Semibold22"
 	}
-	
-	
+	"DamageAccountValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageAccountValueShadow"
+		"xpos"			"c-164"
+		"ypos"			"291"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%metal%"
+		"textAlignment"	"center"
+		"fgcolor"		"HudBlack"
+		"font"			"Semibold22Blur"
+	}
 }

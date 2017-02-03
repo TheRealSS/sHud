@@ -21,8 +21,9 @@
 		
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
-		"titletextinsetX"	"0"														//For the tabs
-		"titletextinsetY"	"0"														//For the tabs
+		"titletextinsetX"	"0"														
+		"titletextinsetY"	"0"
+		"titletextinsetZ" "12345"														
 		"titlebarfgcolor_override"				"200 187 161 0"
 		"titlebardisabledfgcolor_override"		"200 187 161 0"
 		"titlebarbgcolor_override"				"46 43 42 0"
@@ -38,8 +39,8 @@
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"-2"
-		"wide"			"f0"
-		"tall"			"120"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_header"
@@ -52,8 +53,8 @@
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"60"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
@@ -66,8 +67,8 @@
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"10"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
@@ -81,7 +82,7 @@
 		"tabxindent"	"127"
 		"tabxdelta"		"10"
 		"tabwidth"		"50"
-		"tabheight"		"20"
+		"tabheight"		"25"
 		"transition_time" "0"
 		
 		"HeaderLine"
@@ -102,11 +103,10 @@
 		"tabskv"
 		{
 			"textinsetx"		"5"
-			"font"				"Bold15"
+			"font"				"AllCaps15"
 			"textAlignment"		"center"
-			"selectedcolor"		"HudMenuArmedText"
-			"unselectedcolor"	"HudMenuText"	
-			"defaultBgColor_override"	"HudMenuText"
+			"selectedcolor"		"HudMenuText"
+			"unselectedcolor"	"HudBlack"	
 			"paintbackground"	"0"
 		}
 	}
@@ -125,8 +125,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_BackCarat"
-		"font"			"HudFontSmallBold"
+		"labelText"		"BACK"
+		"font"			"AllCaps15"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -134,6 +134,11 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
+
+		"defaultFgColor_override" "HudMenuTextGray"
+		"armedFgColor_override" "HudMenuText"
+		"depressedFgColor_override" "HudMenuTextGray"	
 	}		
 	
 	"NotificationsPresentPanel"
@@ -165,6 +170,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"HudMenuDark"
-	} 
+		"image"			"replay/thumbnails/menubg"
+	}  
 }

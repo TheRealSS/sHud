@@ -6,7 +6,7 @@
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
 		"subimage" "icon_resume"
-		"tooltip" "Resume Game"
+		"tooltip" "Resume"
 	}
 	"FindAGameButton"
 	{

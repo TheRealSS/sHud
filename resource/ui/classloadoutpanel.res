@@ -20,7 +20,7 @@
 		
 		"item_xpos_offcenter_a"	"70"			//Weapons
 		"item_xpos_offcenter_b"	"175"			//Cosmetics
-		"item_ypos"		"60"
+		"item_ypos"		"40"
 		"item_ydelta"	"75"
 		"item_mod_wide"	"40"
 		
@@ -65,6 +65,42 @@
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
+		}
+
+
+		"MenuBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"MenuBG"
+			"xpos"			"0"
+			"ypos"			"-50"
+			"zpos"			"-80"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"1"
+			"scaleImage" 	"1"
+			"image"			"replay/thumbnails/menubg"
+		}
+
+		"BG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"BG"
+			"xpos"			"c-300"
+			"ypos"			"5"
+			"zpos"			"-50"
+			"wide"			"600"
+			"tall"			"360"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"border"		"Shadow1"
+			"bgcolor_override"		"HudMenuDarkerT"
 		}
 
 		"itemoptionpanels_kv"
@@ -112,11 +148,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"Bold15"
+		"font"			"Semibold18"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-292"
-		"ypos"			"0"
+		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"85"
 		"tall"			"25"
@@ -334,7 +370,7 @@
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
 		"zpos"			"20"
-		"wide"			"150"
+		"wide"			"106"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -495,10 +531,10 @@
 		"labelText"		"Weapons"
 		"font"			"Semibold12"
 		"textAlignment"	"center"
-		"xpos"			"c-56"
-		"ypos"			"78"
+		"xpos"			"c-53"
+		"ypos"			"23"
 		"zpos"			"2"
-		"wide"			"53"
+		"wide"			"50"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -535,10 +571,10 @@
 		"labelText"		"Taunts"
 		"font"			"Semibold12"
 		"textAlignment"	"center"
-		"xpos"			"c-1"
-		"ypos"			"78"
+		"xpos"			"c+1"
+		"ypos"			"23"
 		"zpos"			"2"
-		"wide"			"53"
+		"wide"			"50"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -679,59 +715,4 @@
 	}
 
 	//Custom Elements
-
-	"MenuBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"-17"
-		"zpos"			"-80"
-		"wide"			"f0"
-		"tall"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"fillcolor"		"HudMenuDark"
-	}
-
-	"ItemsBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ItemsBG"
-		"xpos"			"c+65"
-		"ypos"			"56"
-		"zpos"			"-50"
-		"wide"			"210"
-		"tall"			"298"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"HudMenuDarker"
-	}
-
-	"TauntsBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TauntsBG"
-		"xpos"			"4"
-		"ypos"			"4"
-		"zpos"			"-50"
-		"wide"			"116"
-		"tall"			"40"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"HudMenuDarker"
-
-		"pin_to_sibling"		"TauntLoadoutButton"
-		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
-	}
-
-
 }

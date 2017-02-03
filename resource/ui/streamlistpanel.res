@@ -14,9 +14,10 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeaderLabel"
-			"font"			"Bold15"
+			"font"			"AllCaps15"
 			"textAlignment"	"center"
 			"labelText"		"#MMenu_Stream_LiveStream"
+			"textInsetY"	"-3"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"4"
@@ -42,7 +43,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"82 148 226 255"
+			"fillcolor"		"62 124 182 255"
 		}
 	}
 		
@@ -77,8 +78,8 @@
 		"paintbackground"	"0"
 			
 		"defaultFgColor_override" "247 247 255 255"
-		"armedFgColor_override" "44 46 58 255"
-		"depressedFgColor_override" "82 148 226 255"
+		"armedFgColor_override" "52 58 63 255"
+		"depressedFgColor_override" "62 124 182 255"
 
 		"defaultBgColor_override" "44 46 58 255"
 		"armedBgColor_override" "44 46 58 255"
@@ -115,7 +116,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"59 62 79 255"
+		"fillcolor"		"52 58 63 255"	
 	}
 
 	"TitleLabel"
@@ -216,7 +217,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"Stream_URLButton"
 		"xpos"			"75"
-		"ypos"			"300"
+		"ypos"			"302"
 		"wide"			"150"
 		"tall"			"15"
 		"autoResize"	"0"
@@ -238,10 +239,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 			
 		"defaultFgColor_override" "247 247 255 255"
-		"defaultBgColor_override" "44 46 58 255"
-		"armedBgColor_override" "44 46 58 255"
-		"depressedBgColor_override" "44 46 58 255"
-		"armedFgColor_override" "82 148 226 255"
-		"depressedFgColor_override" "82 148 226 255"
+		"defaultBgColor_override" "36 42 48 255"
+		"armedBgColor_override" "36 42 48 255"
+		"depressedBgColor_override" "36 42 48 255"
+		"armedFgColor_override" "62 124 182 255"
+		"depressedFgColor_override" "62 124 182 255"
 	}
 }

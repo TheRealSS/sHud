@@ -12,12 +12,10 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
-		"xpos"				"10"
-		"xpos_minmode"		"20"
+		"xpos"				"0"
 		"ypos"				"0"
-		"ypos_minmode"		"-14"
 		"zpos"				"2"
-		"wide"				"100"
+		"wide"				"54"
 		"tall"				"150"
 		"visible"			"1"
 		"enabled"			"1"
@@ -50,16 +48,16 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Semibold16"
-			"xpos"			"25"
+			"xpos"			"4"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"50"
-			"tall"			"21"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-			"bgcolor_override"		"HudTeamBlue"
+			"bgcolor_override"		"HudMenuDarkerT"
 			"fgcolor"		"HudWhite"
 
 			if_match
@@ -77,18 +75,36 @@
 			
 			}
 		}	
+
+		"BlueBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BlueBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"4"
+			"tall"	 		"20"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"HudTeamBlue"
+
+			"pin_to_sibling"	"TimePanelValue"
+			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		}	
 	}
 
 	"RedTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
-		"xpos"				"80"
-		"xpos_minmode"		"70"
+		"xpos"				"58"
 		"ypos"				"0"
-		"ypos_minmode"		"-14"
 		"zpos"				"2"
-		"wide"				"100"
+		"wide"				"54"
 		"tall"				"150"
 		"visible"			"1"
 		"enabled"			"1"
@@ -121,16 +137,16 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Semibold16"	
-			"xpos"			"50"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"50"
-			"tall"			"21"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-			"bgcolor_override"		"HudTeamRed"
+			"bgcolor_override"		"HudMenuDarkerT"
 			"fgcolor"		"HudWhite"
 
 			if_match
@@ -148,6 +164,26 @@
 			
 			}
 		}	
+
+		"RedBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"RedBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"4"
+			"tall"	 		"20"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"HudTeamRed"
+
+			"pin_to_sibling"	"TimePanelValue"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		}	
 	}
 	
 	"ActiveTimerBG"
@@ -155,13 +191,10 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"0"
-		"ypos"				"21"
-		"ypos_minmode"		"-4"
+		"ypos"				"20"
 		"zpos"				"6"
-		"wide"				"50"
-		"wide_minmode"		"37"
+		"wide"				"54"
 		"tall"				"2"
-		"tall_minmode"		"21"
 		"visible"			"0"
 		"enabled"			"0"
 	}	

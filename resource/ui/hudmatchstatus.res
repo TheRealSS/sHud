@@ -91,7 +91,7 @@
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"HudFontGiant"
 		"xpos"			"cs-0.48"
-		"ypos"			"9999"
+		"ypos"			"cs-0.98"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"4"
@@ -108,8 +108,8 @@
 	
 		if_readymode
 		{
-			"xpos"			"9999"
-			"ypos"			"9999"
+			"xpos"			"301"
+			"ypos"			"131"
 		}
 	}	
 
@@ -272,11 +272,12 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"Bold20"
 			"fgcolor_override"		"HudWhite"
+			"bgcolor_override"		"HudMenuDarkerT"
 			"xpos"			"25"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"50"
-			"tall"			"21"
+			"tall"			"20"
 			"textinsetY"	"2"
 			"visible"		"1"
 			"enabled"		"1"
@@ -293,6 +294,36 @@
 				"font"			"Bold20"
 				"fgcolor"		"HudWhite"
 			}
+		}
+		
+		"TeamBG"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"TeamBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"4"
+			"tall"	 		"20"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/color_panel_brown"
+ 			"scaleImage"		"1"
+ 			"teambg_1"		""
+ 			"teambg_2"		"replay/thumbnails/teamred"
+			"teambg_3"		"replay/thumbnails/teamblue"
+		
+			"src_corner_height"		"40"				// pixels inside the image
+			"src_corner_width"		"40"
+			
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+
+			"pin_to_sibling"	"TimePanelValue"
+			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}	
 	}
 	"TeamStatus"
